@@ -1,0 +1,29 @@
+-------------------TABELA SIMBOLA----------------------
+Ime       L/G/S     Sekcija   Vrednost  Definisano
+abs       G         abs       0         DA        
+myCode    S         myCode    0         DA        
+myCounter G         myData    0         DA        
+myData    S         myData    0         DA        
+myStart   G         myCode    0         DA        
+-------------------SEKCIJE----------------------
+------------------------------------------
+Ime       Velicina  Offset    
+myCode    28        0         
+
+relokacioni info:
+Addend    Simbol    Tip       Offset    
+10        myCode    DIR_16    25        
+0         myCounter DIR_16    13        
+------------------------------------------
+------------------------------------------
+Ime       Velicina  Offset    
+myData    2         28        
+
+relokacioni info:
+Addend    Simbol    Tip       Offset    
+------------------------------------------
+------------------------------------------
+----------IZGLED PROGRAMA---------------
+A0 00 00 00 01 B0 00 04 FF 10 A0 00 04 00 00 A0 10 00 00 05 74 01 52 F0 00 00 0A 00 
+00 00 
+-----------------------

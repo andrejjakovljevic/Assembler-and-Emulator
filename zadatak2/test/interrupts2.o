@@ -1,0 +1,36 @@
+-------------------TABELA SIMBOLA----------------------
+Ime       L/G/S     Sekcija   Vrednost  Definisano
+abs       G         abs       0         DA        
+isr       S         isr       0         DA        
+ivt       S         ivt       0         DA        
+myBit     G                   0         NE        
+myChar    G                   0         NE        
+myCounter G                   0         NE        
+myStart   G                   0         NE        
+-------------------SEKCIJE----------------------
+------------------------------------------
+Ime       Velicina  Offset    
+ivt       16        0         
+
+relokacioni info:
+Addend    Simbol    Tip       Offset    
+0         isr       DIR_16_R  0         
+5         isr       DIR_16_R  4         
+40        isr       DIR_16_R  6         
+------------------------------------------
+------------------------------------------
+Ime       Velicina  Offset    
+isr       98        16        
+
+relokacioni info:
+Addend    Simbol    Tip       Offset    
+0         myBit     DIR_16    71        
+0         myChar    DIR_16    14        
+0         myChar    DIR_16    31        
+0         myStart   DIR_16    3         
+------------------------------------------
+------------------------------------------
+----------IZGLED PROGRAMA---------------
+00 00 00 00 05 00 28 00 00 00 00 00 00 00 00 00 
+50 F0 00 00 00 B0 06 12 B0 16 12 A0 00 04 00 00 B0 00 04 FF 00 A0 10 00 00 01 70 01 B0 00 04 00 00 A0 16 42 A0 06 42 20 B0 06 12 B0 16 12 A0 00 04 FF 02 A0 10 00 00 74 74 01 52 F7 05 00 0A A0 10 00 20 00 B0 10 04 00 00 A0 10 00 00 61 74 01 52 F7 05 00 01 00 B0 00 04 FF 00 A0 16 42 A0 06 42 20 
+-----------------------
